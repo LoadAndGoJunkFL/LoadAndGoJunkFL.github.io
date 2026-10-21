@@ -25,7 +25,7 @@
   .steps { gap: 12px; }
   .steps article { padding: 20px; }
   .pricing-grid, .area-grid, .faq-grid { grid-template-columns: 1fr; gap: 35px; }
-  .item-grid { grid-template-columns: repeat(2, 1fr); }
+  .item-grid, .item-boundaries { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 600px) {
@@ -54,7 +54,8 @@
   .trust-grid span { font-size: 11px; }
   .section { padding-block: 56px; }
   .section-heading h2, .pricing-grid h2, .area-section h2, .closing-cta h2 { font-size: clamp(29px, 8vw, 39px); }
-  .steps, .service-grid, .item-grid { grid-template-columns: 1fr; gap: 12px; margin-top: 27px; }
+  .steps, .service-grid, .item-grid, .item-boundaries { grid-template-columns: 1fr; gap: 12px; margin-top: 27px; }
+  .item-boundaries { margin-top: 12px; }
   .steps article, .service-grid article { min-height: 0; }
   .service-grid article { padding: 22px; }
   .service-grid h3 { margin-top: 15px; }
